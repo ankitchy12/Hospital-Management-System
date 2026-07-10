@@ -1,0 +1,5 @@
+@baseurl = http://localhost:3000
+
+### TEST API
+GET {{baseurl}}
+
