@@ -3,3 +3,12 @@
 ### TEST API
 GET {{baseurl}}
 
+### CREATE USER
+POST {{baseurl}}/users
+content-Type: application/json
+
+{
+    "name": "Ankit Chaudhary",
+    "email": "ankit.chaudhary@example.com",
+    "password": "test123"
+}
