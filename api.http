@@ -12,3 +12,6 @@ content-Type: application/json
     "email": "ankit.chaudhary@example.com",
     "password": "test123"
 }
+
+#### GET ALL USERS
+GET {{baseurl}}/users
